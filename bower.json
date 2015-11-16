@@ -1,0 +1,27 @@
+{
+	"name": "angular-socketio",
+	"version": "1.0.0",
+	"authors": [
+		"klerick666@gmail.com"
+	],
+	"description": "AngularJs and Socket.IO with shared socket connection throw tabs",
+	"keywords": [
+		"angular",
+		"angularjs",
+		"socketio",
+		"service"
+	],
+	"license": "MIT",
+	"ignore": [
+		"**/.*",
+		"node_modules",
+		"bower_components",
+		"test",
+		"tests"
+	],
+	"dependencies": {
+		"angular":"~1.2.0"
+	},
+	"devDependencies": {
+	}
+}
