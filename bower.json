@@ -1,26 +1,19 @@
 {
-	"name": "angular-socketio-demo",
-	"version": "0.0.0",
-	"authors": [
-		"klerick666@gmail.com"
-	],
-	"description": "Demo",
-	"keywords": [
-	],
-	"license": "MIT",
-	"ignore": [
-		"**/.*",
-		"node_modules",
-		"bower_components",
-		"test",
-		"tests"
-	],
-	"dependencies": {
-		"angular":"~1.2.0",
-		"angular-sanitize":"~1.2.0",
-		"angular-route":"~1.2.0",
-		"angular-touch":"~1.2.0"
-	},
-	"devDependencies": {
-	}
+  "name": "fs-socket-io",
+  "description": "An Angularjs module with full a simple functional of socket.Io",
+  "main": [
+    "js/fs-socket-io.js"
+  ],
+  "dependencies": {
+    "angular": "~1.4.6"
+  },
+  "keywords": [
+    "socket.io",
+    "AngularJS",
+    "sharing",
+    "connect"
+  ],
+  "authors": [
+    "Alex H "
+  ]
 }
