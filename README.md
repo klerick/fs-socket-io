@@ -23,12 +23,11 @@ with Sharing connection between Browser's windows and tabs across local storage
     
 4. init connect
     ```javascript
-        	angular.run("testApp", ['fsSocketIo', function(fsSocketIo){
-        	}]);
-        ```
+        angular.run("testApp", ['fsSocketIo', function(fsSocketIo){
+        }]);
+    ```
 5. In your controller
-
     ```javascript
-        	$scope.$on('socket:YourSocketEvent')
-        	fsSocketIo.emit('YourSocketEmitEvent', param)
-        ```
+        $scope.$on('socket:YourSocketEvent')
+               fsSocketIo.emit('YourSocketEmitEvent', param)
+           ```
