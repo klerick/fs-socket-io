@@ -29,5 +29,5 @@ with Sharing connection between Browser's windows and tabs across local storage
 5. In your controller
     ```javascript
         $scope.$on('socket:YourSocketEvent')
-               fsSocketIo.emit('YourSocketEmitEvent', param)
-           ```
+       fsSocketIo.emit('YourSocketEmitEvent', param)
+   ```

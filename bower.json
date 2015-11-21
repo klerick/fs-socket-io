@@ -1,6 +1,6 @@
 {
   "name": "fs-socket-io",
-  "version": "v0.0.2",
+  "version": "v0.0.3",
   "description": "An Angularjs module with full a simple functional of socket.Io",
   "main": [
     "js/fs-socket-io.js"
